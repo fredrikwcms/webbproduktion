@@ -1,0 +1,63 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Typography */
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 28, 28);
+}
+
+p   {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.2;
+}
+
+a   {
+    text-decoration: none;
+    color: tomato;
+}
+/* /Typography */
+
+/* Header */
+header {
+    background-color: rgb(73, 63, 63);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-nav   {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+/* End of Header */
+
+/* Main content */
+main {
+    width: 98%;
+    margin: auto;
+}
+
+article {
+    padding: 10px;
+    border-bottom: 2px solid rgb(73, 63, 63);
+}
+/* End of main content */
+
+/* Footer */
+footer {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+footer span {
+    padding: 12px;
+    display: block;
+}
+/* End of footer */
+
+

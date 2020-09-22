@@ -1,0 +1,65 @@
+/* Basic styles and typography */
+html, body  {
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    background-color: lightgray;
+}
+
+.site-logo {
+    margin: 0px;
+    padding: 10px;
+}
+
+.site-logo a {
+    text-decoration: none;
+    color: magenta;
+}
+
+.main-nav {
+    text-align: center;
+    height: 40px;
+}
+
+.main-nav div {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.main-nav div a {
+    color: rgb(25, 24, 24);
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+
+/* CSS Pseudo class ":hover" */
+
+.main-nav div a:hover {
+    color: magenta;
+    background-color: rgb(120, 202, 198);
+    font-family: monospace;
+}
+
+/* Main Content */
+
+
+/* Footer */
+
+/* Style a list to look like a navigation menu */
+.social-links-container {
+    padding-left: 0px;
+}
+
+.social-links-container li {
+    display: inline;
+    list-style: none;
+}
+
+.social-link {
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+header  {
+    background-color: tomato;
+}
+
+.header-container {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main    {
+    width: 900px;
+    margin: auto;
+}
+
+.article-container {
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+}
+
+.my-hobbies-container {
+    display: flex;
+}

@@ -1,0 +1,19 @@
+/* Medium Screen Styles */
+@media screen and (min-width: 720px)   {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .article-container {
+        width: 65%;
+    }
+
+   aside {
+       width: 30%;
+   }
+   
+   .article-container article:last-child {
+       border-bottom: 0px;
+   }
+}

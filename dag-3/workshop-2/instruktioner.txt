@@ -1,0 +1,32 @@
+Dagens workshop
+
+Skriv inte en enda rad CSS innan ni har skrivit klart eran HTML!!!!111
+
+HTML:
+
+Skapa en index.html med följande struktur:
+
+<header>
+
+<main>
+
+<footer>
+
+I header ska det finnas en logotyp (valfri bild) samt en meny med fyra st. länkar. Använd "display: flex" för layout.
+
+I <main> ska det finnas två st. <section>. 
+I den första ska det finnas en rubrik med ditt namn, en topp-tre-lista med valfria saker, (minst) två paragrafer som berättar vem du är och varför du sökte till Medieinstitutet.
+
+I den andra sektionen ska det finnas en bild och två paragrafer som beskriver ett intresse du har.
+
+----------------------
+
+CSS:
+
+Header och footer ska vara fullbredd.
+
+Din första sektion ska ha rubrik och paragrafer i en kolumn. Din topplista i en andra kolumn.
+
+Din andra sektion ska ha en bild i en kolumn, dina paragrafer i en annan.
+
+

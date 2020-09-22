@@ -1,0 +1,64 @@
+html, body {
+    margin: 0px;
+}
+
+header {
+    background-color: tomato;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header .logo {
+    width: 100px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:link {
+    color: greenyellow;
+}
+
+nav ul li a:visited {
+    color: magenta;
+}
+
+main {
+    background-color: lightgrey;
+    height: 1200px;
+    margin-top: 100px;
+}
+
+section {
+    width: 50%;
+}
+
+.section-1 {
+    float: left;
+}
+
+.section-2 {
+    float: right;
+}
+
+.section-2 p {
+    float: left;
+}
+
+section p img {
+    width: 50%;
+    max-width: 250px;
+    float: left;
+}
+
+footer {
+    background-color: tomato;
+}
+
+

@@ -1,0 +1,48 @@
+/* Header styles */
+
+header img {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: tomato;
+    font-size: 1.5rem;
+}
+/* If screen is bigger than 768px, do this: */
+@media screen and (min-width: 768px)   {
+    body {
+        background-color: rgb(255, 208, 208);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container article {
+        width: 50%;
+    }
+}
+
+/* If screen is even bigger than the other one (900px++), do this: */
+@media screen and (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        width: 1200px;
+    }
+
+    p {
+        font-size: 2em;
+    }
+}

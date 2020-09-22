@@ -1,0 +1,65 @@
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.box-1 {
+    background-color: yellow;
+    width: 30%;
+}
+
+.box-2 {
+    background-color: green;
+    width: 30%;
+}
+
+.box-3 {
+    background-color: rgb(89, 0, 255);
+    width: 30%;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container-2 div {
+    width: 48%;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Contains <h2> and <div class="sections"> */
+.flex-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container-3 h2 {
+    width: 100%;
+}
+
+/* Contains 2 <section> */
+.sections-container {
+    display: flex;
+}
+
+@media screen and (max-width: 600px)    {
+    body {
+        background-color: pink;
+        font-size: 1.2rem;
+    }
+    
+    .flex-container-2 div {
+        width: 100%;
+    }
+}

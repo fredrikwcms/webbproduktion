@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>About me</title>
+</head>
+<body>
+	<header>
+		<!-- Here we should add a nice nav -->
+	</header>
+
+	<main class="container">
+		<h2>This is the story, all about how...</h2>
+		<!-- First row of content -->
+		<div class="row">
+			<!-- A column with 100%/50% width depending on screen size -->
+			<div class="col-sm-12 col-md-6">
+				<h3>Doge</h3>
+
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque velit quidem maiores at iure perspiciatis deleniti, laudantium repellendus corrupti possimus eveniet quaerat fuga, blanditiis reprehenderit quos eius! Odio, nam.</p>
+			</div>
+			<!-- A column with 100%/50% width depending on screen size -->
+			<div class="col-sm-12 col-md-6">
+				<h3>Catto</h3>
+
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quidem aspernatur laboriosam delectus, fugiat ipsum rerum sit ipsa perferendis minima, veritatis nesciunt adipisci aliquid eius deserunt tenetur non, accusantium magni?</p>
+			</div>
+		</div>
+		<hr>
+		<!-- Second row of content -->
+		<div class="row">
+			<!-- Wrap images in col so their size depends on the size of col -->
+			<div class="col-md-6 col-lg-3">
+				<img class="img-fluid" src="https://i.imgur.com/FNkXwuR.jpg" alt="">
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<img class="img-fluid" src="https://i.imgur.com/8w3uMSf.jpg" alt="">
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<img class="img-fluid" src="https://i.imgur.com/syX1wI6.jpg" alt="">
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<img class="img-fluid" src="https://i.imgur.com/E3CWY3o.jpg" alt="">
+			</div>
+		</div>
+		<hr>
+		<!-- Third row of content -->
+		<div class="d-flex flex-row">
+			<!-- Just using "col" will make this one 100% wide -->
+			<div class="col">
+				<h2>We can also use <code>display: flex;</code>, but in Bootstrap you can just add the class <code>d-flex</code>.</h2>
+			</div>
+		</div>
+		<hr>
+		<!-- Fourth row of content -->
+		<div class="d-flex flex-row">
+			<div class="col-6 green">
+				<p>This is a <code>&lt;div class="col-6"&gt;</code> inside a <code>&lt;div class="d-flex flex-row"&gt;</code></p>
+
+				<p>This one starts from the start of the element</p>
+			</div>
+
+			<div class="col-6">
+				<img class="img-fluid" src="https://i.imgur.com/E3CWY3o.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="d-flex flex-row-reverse">
+			<div class="col-6 blue">
+				<p>This is a <code>&lt;div class="col-6"&gt;</code> inside a <code>&lt;div class="d-flex flex-row-reverse"&gt;</code></p>
+
+				<p>This makes everything start from the end of the element!</p>
+			</div>
+
+			<div class="col-6">
+				<img class="img-fluid" src="https://i.imgur.com/E3CWY3o.jpg" alt="">
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<!-- This is our lovely footer -->
+	</footer>
+</body>
+</html>

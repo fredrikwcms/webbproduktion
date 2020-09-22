@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: tomato;
+}
+
+main {
+    background-color: wheat;
+    width: 400px;
+    margin: auto;
+}
+
+article {
+    padding: 8px;
+}
+
+h1  {
+    margin: 0px;
+}
+
+ul {
+    background-color: blue;
+}
+
+.bg-red {
+  background-color: tomato; 
+}
+
+#asdf {
+    font-family: monospace;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+footer {
+  background-color: tomato;  
+}

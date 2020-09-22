@@ -1,0 +1,17 @@
+Workshop 1 dag 2
+
+* Skapa upp en ny mapp som du döper till förnamn-efternamn.
+
+* Skapa en index.html med strukturen header, main, footer.
+
+* I header ska det finnas en logo/title som länkar till index.html.
+
+* I header ska även navigation med minst 3 länkar finnas.
+
+* I main vill vi ha 2 st. sections.
+ 
+* Varje sektion ska innehålla en bild.
+    - Varje section ska innehålla 1 rubrik.
+    - Varje section ska innehålla 3 paragrafer.
+	
+* I footer vill vi ha våran e-mail.

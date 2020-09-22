@@ -1,0 +1,14 @@
+/* Large Screen Styles */
+@media screen and (min-width: 920px)    {
+    article:nth-child(odd) {
+        background-color: lightcoral;
+    }
+    
+    .article-container article:nth-child(even) {
+        background-color: lightblue;
+    }
+    
+    .article-container article:last-child {
+        border-bottom: 0px;
+    }
+}
