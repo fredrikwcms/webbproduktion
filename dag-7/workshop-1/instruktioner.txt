@@ -1,0 +1,7 @@
+Workshop - Bootstrap layout
+
+Använd de tekniker vi lärt oss hittills för att kopiera layouten på denna sida:
+
+https://www.javascript.com/
+
+Använd de element som vi lärt oss, <nav>, <input> osv. Även kolumner och rows så klart :)
