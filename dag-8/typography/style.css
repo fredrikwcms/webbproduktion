@@ -1,0 +1,86 @@
+html    {
+    font-size: 18px;
+}
+
+/* Two times the ROOT (<html>) elements font-size */
+/* h1  {
+    font-size: 2rem;
+}
+
+article {
+    font-size: 2rem;
+} */
+
+/* Two times the parent elements font-size */
+/* h2  {
+    font-size: 2em;
+} */
+
+h1  {
+    font-size: 2rem;
+}
+
+h2  {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+/* Annoying text, hard to read */
+/* p   {
+    line-height: 50px;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+} */
+
+.wrapper {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.wrapper span {
+        /* Only works on in-line elements */
+        vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

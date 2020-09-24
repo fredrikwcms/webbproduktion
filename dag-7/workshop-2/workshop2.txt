@@ -1,0 +1,10 @@
+Workshop 2 - Bootstrap - Dag 7
+
+* Del 1. 
+
+    Nu när vi har lite bättre koll på Bootstraps Grid-system (för layout) samt deras komponenter. Bygg klart din "about-me" sida genom att använda Bootstrap för layout. Fokusera på att få layouten bra INNAN du skriver CSS för din sida. 
+
+* Del 2.
+
+    När du är klar med din layout, skriv CSS och stylea efter smak och tycke. Du bör använda minst 1 typsnitt, ha minst 2 bilder samt stylea länkar. Färg är valfritt.
+
